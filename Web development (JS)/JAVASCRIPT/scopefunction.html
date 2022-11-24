@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //functions are scoped
+        // let username= 'Dennis'
+
+        // function display(){
+        //     let username= 'Friday'
+        //     return username.toLocaleUpperCase()
+        // }
+        // display()// FRIDAY
+
+        // Variables used in a function CANNOT be reused in another function
+
+        // let age =45
+        // function ageData (){
+        //     return age+10
+        // }
+        // function ageDP{
+        //     return age+100
+        // }
+
+        // LEXICAL Scope
+
+        // function outer(){
+        //     let hero= 'Black Panther';
+        //     function inner(){
+        //         let cryForHelp= `${hero}, please save me!`
+        //         console.log(cryForHelp)
+        //     }
+        //     inner()
+        // }
+
+        //LEXICAL scope with parameters
+        function forexDisplay(data){
+            let price =500
+            return price*data
+        }
+        function forex(data){
+            
+            return forexDisplay(data)
+        }
+
+    </script>
+</body>
+</html>

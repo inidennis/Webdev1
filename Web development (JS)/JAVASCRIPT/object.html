@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const Uche ={
+        //     name: 'Uche',
+        //     age: 34,
+        //     isMarried: true,
+        //     occupation: 'Developer',
+        //     family:['Ezine', 'Gideon', 'Mary'],
+        //     religion: 'christianity',
+        // }
+
+        //const cars=['Volvo', 'benz','Honda']
+
+        // const Allcars={
+        //     best: Tesla,
+        //     others: cars
+        // }
+        //object in array
+
+        const student=[
+            {
+                name: 'Richard',
+                isMarried: true,
+                spouse:'Queeneth',
+                Children:['Henry','Ada','friday'],
+                age: 34,
+                occupation:'Developer'
+            },
+            {
+                name: 'Faith',
+                isMarried: true,
+                spouse:'Mr Han',
+                children:['Mary','Ada','friday'],
+                age: 30,
+                occupation:'Doctor'
+            },
+            {
+                name: 'Goodluck',
+                isMarried: false,
+                spouse:'null',
+                children: null,
+                age: 22,
+                occupation:'Developer'
+            },
+        ]
+        
+
+        // let yourName= prompt('name')
+        // let yourAge= Number (prompt('Age'))
+        // let yourOccupation = prompt('occupation')
+        // let yourSpouse= prompt( 'Spouse')
+        // const app  = []
+        // app.push(yourName,yourAge,yourOccupation,yourSpouse)
+        // console.log(app)
+
+
+        // student[2].age=34,
+        // student[2].isMarried=true,
+        // student[2].spouse= 'Nancy',
+        // student[2].children=['Akin','Obi']
+
+
+        let data =`${student[1].name} is ${student[1].age} years old, she has ${student[1].children.length} children and her spouse name is ${student[1].spouse}. She is a ${student[1].occupation} by occupation, and her children are ${student[1].children[0]}, ${student[1].children[1]} and ${student[1].children[2]}`
+
+            console.log(data)
+
+        
+        
+    </script>
+</body>
+</html>

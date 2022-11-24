@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // for(let i= 0; i<=10; i++){
+        //     console.log(i)
+        // }
+        // // print 2-100 2,4,6....100
+        // for(let i=2; i<=100; i+=2){
+        //     console.log(i)
+        // }
+        //     //create a 2 times multiplication table
+            // for(let i=1;i<=12;i++){
+            //     console.log(`2x${i}=${2*1}`)
+            // }
+         //print in a descending order
+        // for(let i=100; i>=0; i-=10){
+        //     console.log(i)
+        // }    
+        
+        //Multiplication table for number range 1-50
+        // let num = Number(prompt(`Enter number`))
+        // for(let i= 1; i<=50;i++){
+        //         console.log(`${num}x ${i}=${num*i}`)
+        // }
+        
+
+    //looping over arrays
+
+    // let student = ['olivia', 'fred','nancy','wilson','biola']
+    // for(i=0; i<student.lenght;i++){
+    //     console.log(students[i])
+    //     }
+    // for( let index=o; index<student.length; index++){
+    //     const element= students[index];
+    //     console.log(element)
+    // }
+    //looping over a nested array
+    const classes=[
+        ['vivian','Cosmos'],
+        ['Ronaldo','Naanby','Salah'], 
+        ['Micheal','Mumbarack','Henry'],
+        ['Tiago','Numez','Salah']
+    ]
+    for(let i=0; i<classes.length; i++){ 
+        const element= classes[i];
+        console.log(`#Class: ${i+1}`)
+    }
+       for (let j =0; j<element.length; j++){
+            const elementTwo = element[j];
+            console.log(elementTwo)
+        }
+    
+    
+    //looping through Array using the for off
+    // let students=['0livia','fred','nancy','wilson','object']
+    //     for (let index = 0; index < student.length; index++) {
+    //         const element = student[index];
+    //         console.log(element)
+            
+    //     }
+    //     for (const student of students) {
+    //         console.log(student)
+        
+    const nationality = {
+        country: 'Nigeria',
+        capital: 'Abuja',
+        states: 36,
+        isQualified: false
+
+    }
+    console.log(nationality.country)//Nigeria
+    // console.log(nationality['country'])
+
+    //this how to print the keys
+    //for(keys in nationality){
+    //     console.log(keys)
+    // }
+
+    //how to print values
+    //for()
+
+    //while loop
+    // let i= 0 //initial declaration
+
+    // while (i<=10) {
+    //    console.log(i++) 
+    // }
+    // //using while loop to keep users in a loop
+    // let user= confirm('Do you want to quite game? press ok')
+
+    // while(user){
+    //     confirm('Do you want to quite game? press ok')
+    // }
+
+    //using break in while loop
+    // we use break when we are sure that the condition should end the loop
+let user= Number(prompt('how old are you'))
+
+while (user<18) {
+    Number(prompt('how old are you' ))
+    if(user>18){
+        break;
+    }
+}
+
+            
+    
+    
+        
+    
+    
+
+    </script>  
+</body>
+</html> 
